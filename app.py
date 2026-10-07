@@ -65,3 +65,11 @@ elif temp == 68:
     print('perfect')
 else:
     print('cold') """
+
+def factors (num):
+  x =1
+  while x is not num:
+        if x*(num/2)==num:
+         x=x+1
+         print(num)
+factors(4)

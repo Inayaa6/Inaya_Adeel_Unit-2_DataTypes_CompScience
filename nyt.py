@@ -5,7 +5,7 @@
             x+=1
     return x
 print(spaces (5, "CC..C", ".C.C..")) """\
-
+""" 
 
 def engfr (text):
     s=0
@@ -20,4 +20,4 @@ def engfr (text):
             print("english")
         else:
             print("french")
-engfr ("The cat is mad")
+engfr ("The cat is mad") """
