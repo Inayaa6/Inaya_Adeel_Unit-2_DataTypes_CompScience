@@ -10,9 +10,9 @@ print(spaces (5, "CC..C", ".C.C..")) """\
 def engfr (text):
     s=0
     t=0
-    text==text.lower()
-    s += len for (len)
+    text==text.lower
     print(len(text(s)))
+    s += 1
     for i in range (len(text)):
         if s > t:
             print("french")
