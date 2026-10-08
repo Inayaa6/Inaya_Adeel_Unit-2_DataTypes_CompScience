@@ -31,7 +31,7 @@ print(len(y(" "))) """
 
 
 """ #unfinished
-def bill_calculator(b):
+def bill_calculator():
    b = int(input("how much was your bill?"))
    tip_value == 1
    z = input("how was your service?")
@@ -66,10 +66,19 @@ elif temp == 68:
 else:
     print('cold') """
 
-def factors (num):
+def greatest_commen_factors():
+  num1=int(input("what is the first number you would like to use?"))
+  num2=int(input("what is the 2nd number i need to find the gcf of?"))
   x =1
-  while x is not num:
-        if x*(num/2)==num:
+  y=1
+  while x is not num1:
+        if x*(num1/2)==num1:
+         x=x+1 
+         print(num1)
+  while 7 is not num2:
+        if y*(num2/2)==num2:
          x=x+1
-         print(num)
-factors(4)
+         print(num2)
+  if: x=y
+  print([x])
+greatest_commen_factors()
