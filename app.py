@@ -66,19 +66,14 @@ elif temp == 68:
 else:
     print('cold') """
 
-def greatest_commen_factors():
-  num1=int(input("what is the first number you would like to use?"))
-  num2=int(input("what is the 2nd number i need to find the gcf of?"))
-  x =1
-  y=1
-  while x is not num1:
-        if x*(num1/2)==num1:
-         x=x+1 
-         print(num1)
-  while 7 is not num2:
-        if y*(num2/2)==num2:
-         x=x+1
-         print(num2)
-  if: x=y
-  print([x])
-greatest_commen_factors()
+def gcf(x,y):
+  if x < y:
+    smaller = x
+  else:
+    smaller = y
+  gcf=1
+  for i in range (1, smaller+1):
+    if x % i == 0 and y % i == 0:
+      gcf=i
+  print(gcf)
+gcf(4,6)
